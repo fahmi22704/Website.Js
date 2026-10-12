@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/JAWAA/',
+  base: '/Website.Js/JAWAA/',
   plugins: [react()],
   server: {
     port: parseInt(process.env.PORT || '5175'),
